@@ -1,0 +1,64 @@
+.home {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+  max-width: 800px;
+  margin: auto;
+  padding: 60px 30px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #005bea;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* STEPS SECTION */
+.steps {
+  margin-top: 60px;
+}
+
+.steps h2 {
+  margin-bottom: 30px;
+  color: #005bea;
+}
+
+.step-box {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.step {
+  background: white;
+  padding: 25px;
+  width: 250px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .step {
+    width: 100%;
+  }
+}

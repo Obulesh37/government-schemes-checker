@@ -1,0 +1,41 @@
+.result-container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.result-container h2 {
+  margin-bottom: 20px;
+  color: #005bea;
+}
+
+/* Voting Card */
+.voting-card {
+  background: linear-gradient(90deg, #005bea, #00c6fb);
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.voting-card h2 {
+  color: white;
+}
+
+.success {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.error {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .result-container {
+    margin: 30px 15px;
+  }
+}
